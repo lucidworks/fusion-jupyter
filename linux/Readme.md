@@ -6,8 +6,8 @@ Use the script `fusion-spark.sh` to connect fusion and jupyter
 1. Have python environment ready and managed (3.x preferred 2.x will also work)
 2. Install Jupyter and all the packages you would like to use e.g. sklearn,tensorflow,keras etc.
 3. Open a new terminal:
-  3.1 `export FUSION_HOME=/root/path/to/fusion/4.x`
-  3.2 sh ./fusion-spark.sh
+- 3.1 `export FUSION_HOME=/root/path/to/fusion/4.x`
+- 3.2 sh ./fusion-spark.sh
 4.  You should have jupyter running on port 8888
 5. Navigate to port localhost:8888, if you have jupyter running create a notebook and test the following line of code:  
   ```python
