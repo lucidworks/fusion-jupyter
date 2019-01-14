@@ -1,6 +1,6 @@
 ### Jupyter with Fusion on Linux
 
-Use the script fusion-spark.sh to connect fusion and jupyter
+Use the script `fusion-spark.sh` to connect fusion and jupyter
 ### Requirements:
 0. Copy the file on the machine where Fusion is installed.
 1. Have python environment ready and managed (3.x preferred 2.x will also work)
