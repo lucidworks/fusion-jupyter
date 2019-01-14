@@ -2,7 +2,7 @@
 
 Use the script `fusion-spark.sh` to connect fusion and jupyter
 ### Requirements:
-0. Copy the file on the machine where Fusion is installed.
+0. Copy the file on the machine where Fusion is installed. Verify the python environment you want to use. You can configure the python environment by changing this line in the script: `export PYSPARK_PYTHON=python3`
 1. Have python environment ready and managed (3.x preferred 2.x will also work)
 2. Install Jupyter and all the packages you would like to use e.g. sklearn,tensorflow,keras etc.
 3. Open a new terminal:
