@@ -1,6 +1,6 @@
 # Jupyter with Fusion for Data Science
 
-This project contains connection scripts and examples that enable you to use Fusion as a Data Service in the jupyter environment.
+This project contains connection scripts and examples that enable you to use Fusion as a Data Service in the Jupyter environment.
 Refer the appropriate environment for setup instructions.
 
 #### The Examples walks through important data science workflows:
