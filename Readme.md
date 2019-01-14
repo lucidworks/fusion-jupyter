@@ -10,7 +10,7 @@ Refer the appropriate environment for setup instructions.
 - Training a Classifier, and
 - Evaluation
 - Running JohnSnow for NLP tasks
-- Annotating documents for POS/NER
+- Annotating documents with POS/NER
 - Writing data back to Fusion
 
 #### Coming up:
