@@ -9,7 +9,7 @@ Use the script `fusion-spark.sh` to connect fusion and jupyter
 - 3.1 `export FUSION_HOME=/root/path/to/fusion/4.x`
 - 3.2 `sh ./fusion-spark.sh` or `bash ./fusion-spark.sh`
 4.  You should have jupyter running on port 8888
-5. Navigate to port localhost:8888, if you have jupyter running create a notebook and test the following line of code:  
+5. Navigate to port localhost:8888, if you have jupyter running create a notebook and test the following lines of code:  
   ```python
   df = spark.read.format("solr").load(format='solr',
                          collection="system_logs",
