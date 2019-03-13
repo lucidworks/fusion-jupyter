@@ -16,7 +16,7 @@ Use the script `fusion-spark.sh` to connect fusion and jupyter
                          zkhost="localhost:9983/lwfusion/4.2.0-SNAPSHOT/solr",
                          flatten_multivalued='false',
                          request_handler='/select',
-                         query="query:*\:*"
+                         query="*:*"
                          )
   df.printSchema()
   df.show(3)
