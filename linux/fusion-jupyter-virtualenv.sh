@@ -30,7 +30,7 @@ export PYSPARK_PYTHON=/home/ubuntu/python3-virtualenv/bin/python
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook --port=8888 --ip=0.0.0.0 --allow-root"
 # Pass the right arguments in PYSPARK_OPTS so the virtualenv gets shipped/created at the executors.
-export PYSPARK_OPTS="--conf spark.pyspark.virtualenv.enabled=true --conf spark.pyspark.virtualenv.type=native --conf spark.pyspark.virtualenv.bin.path=/home/ubuntu/python3-virtualenv/bin --conf spark.pys$
+export PYSPARK_OPTS="--conf spark.pyspark.virtualenv.enabled=true --conf spark.pyspark.virtualenv.type=native --conf spark.pyspark.virtualenv.bin.path=/home/ubuntu/python3-virtualenv/bin --conf spark.pyspark.virtualenv.python_version=3.5.2"
 
 $FUSION_HOME/bin/spark-shell -pyspark \
                              $PYSPARK_OPTS \
