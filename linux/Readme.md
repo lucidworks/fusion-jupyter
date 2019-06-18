@@ -1,13 +1,13 @@
 ### Jupyter with Fusion on Linux
 
-Use the script `fusion-spark.sh` to connect fusion and jupyter
+Use the script `fusion-jupyter.sh` to connect fusion and jupyter
 ### Requirements:
 0. Copy the file on the machine where Fusion is installed. Verify the python environment you want to use. You can configure the python environment by changing this line in the script: `export PYSPARK_PYTHON=python3`
 1. Have python environment ready and managed (3.x preferred 2.x will also work)
 2. Install Jupyter and all the packages you would like to use e.g. sklearn,tensorflow,keras etc.
 3. Open a new terminal:
 - 3.1 `export FUSION_HOME=/root/path/to/fusion/4.x`
-- 3.2 `sh ./fusion-spark.sh` or `bash ./fusion-spark.sh`
+- 3.2 `sh ./fusion-jupyter.sh` or `bash ./fusion-jupyter.sh`
 4.  You should have jupyter running on port 8888
 5. Navigate to port localhost:8888, if you have jupyter running create a notebook and test the following lines of code:  
   ```python
