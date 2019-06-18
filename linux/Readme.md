@@ -26,4 +26,5 @@ Use the script `fusion-jupyter.sh` to connect fusion and jupyter _(fusion-jupyte
 ### Notes:
 1. If the collection is empty you might get an error but that's ok
 2. If you are on a remote machine you will need to tunnel in to access jupyter. Even if port 8888 is opened to public ip's but jupyter has a setting which blocks it. You can google the instructions to allow jupter to accept connections from public ip's. You will have to generate jupyter config and change *ip* and *allow_origin* properties.
-3. Moving forward you may not have to specify the zkhost. For full range of query support check out the Spark-Solr github project (https://github.com/lucidworks/spark-solr)
+3. Moving forward you may not have to specify the zkhost. 
+4. For full range of query support check out the Spark-Solr github project (https://github.com/lucidworks/spark-solr)
